@@ -1,0 +1,52 @@
+.app {
+  display: grid;
+  grid-template: 64px 1fr / 1fr;
+}
+.app-header {
+  display: grid;
+  grid-template: 1fr / 160px auto;
+  grid-gap: 16px;
+  padding: 16px;
+  align-items: center;
+}
+.app-header h3 {
+  color: #3077b8;
+  margin: 0;
+}
+.app-form {
+  text-align: right;
+}
+.app-btn {
+  background: #3077b8;
+  color: #FFF;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #245e93;
+}
+.app-btn:hover {
+  background: #245e93;
+}
+.app-container {
+  padding: 16px;
+  border-top: 1px solid #F2F2F2;
+}
+.app-divider {
+  background: #3077b8;
+  width: 64px;
+  height: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.app-slides {
+  display: grid;
+  grid-template: 1fr / minmax(auto, 720px);
+  grid-gap: 16px;
+}
+.app-slides .app-slide img {
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
